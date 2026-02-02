@@ -1,0 +1,112 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nightlight - Game Engine</title>
+    <link rel="icon" href="https://raw.githubusercontent.com/Nightlight-Engine/nightlight-engine.github.io/refs/heads/main/icon.ico" type="image/x-icon">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #ffffff;
+        }
+
+        body {
+            /* Dark blue Mozilla-style gradient */
+            background: linear-gradient(135deg, #0a1f44, #001f3f, #00112b);
+            background-size: 400% 400%;
+            animation: gradientMove 20s ease infinite;
+        }
+
+        @keyframes gradientMove {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.4);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+        }
+
+        header img {
+            height: 50px;
+            margin-right: 15px;
+        }
+
+        header h1 {
+            font-size: 2em;
+            margin: 0;
+        }
+
+        main {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        section {
+            margin-bottom: 40px;
+            background-color: rgba(0, 0, 0, 0.3);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        a.button {
+            display: inline-block;
+            padding: 12px 20px;
+            background-color: #ff9800;
+            color: #121212;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        a.button:hover {
+            background-color: #e68900;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://github.com/Nightlight-Engine/nightlight-engine.github.io/blob/main/logo.png?raw=true" alt="Nightlight Logo">
+        
+    </header>
+    <main>
+        <section>
+            <h2>About Nightlight</h2>
+            <p>
+                Nightlight is a game engine based on UPBGE from Zohan Haque which is in development and is not compiled yet. 
+                Nightlight is used to make custom games and, using custom lighting, you can even change the sun textures and skybox. 
+                You can model directly in Nightlight without using another 3D modeling software such as Blender or SketchUp. 
+                Nightlight also allows scripting in Python for your game instead of using a complex language such as C++. 
+                It comes with preinstalled plugins (not finished). 
+                Since Nightlight is really not complete, it is very complex to learn, as UPBGE is based on Blender which has complex tutorials.
+            </p>
+        </section>
+        <section>
+            <h2>Helping the Project</h2>
+            <p>
+                Helping Nightlight is very kind and will not delay the release date. 
+                You can compile it, add plugins, or contribute to other parts of the engine.
+            </p>
+            <p>
+                Download a piece of the source code here:
+            </p>
+            <a class="button" href="https://drive.google.com/file/d/1lXjhCRxbhrC-Vgx6AemlxJWXFn-jmBRB/view?usp=sharing" target="_blank">
+                Download Source Code
+            </a>
+            <p style="margin-top: 15px;">
+                Once you have made your fork or contribution, send it to:
+                <br>zohanuhaque@gmail.com
+                <br>izaanhaque38@gmail.com
+            </p>
+        </section>
+    </main>
+
+
+</body></html>
